@@ -1,0 +1,340 @@
+
+/* style for mobile view */
+body{
+    background-color: #1D1D1C;
+}
+
+/* style for img element */
+
+img{
+    max-width: 100%;
+}
+
+/* style for container */
+#container{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* style for header */
+header{
+    text-align: center;
+}
+
+/* style for class desktop */
+.desktop{
+    display: none;
+}
+
+.desktop-special{
+    display: none;
+}
+
+figure figcaption{
+    color: #FFFFFF;
+}
+
+/* style for nav element */
+nav{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.25em;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1.5em;
+    position: -webkit-sticky;
+}
+
+/* style for nav ul */
+
+nav ul{
+    padding: 0;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+/* style for nav li */
+nav li{
+    background-color: #9D9D9C;
+    list-style-type: none;
+    margin: 0.1em;
+    padding: 0.4em;
+    border-radius: 2em;
+}
+
+/* style for nav anchor tag */
+nav li a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+
+/* style for section h2 element  */
+section h2{
+    color: #FFFFFF;
+    text-align: center;
+}
+
+/* style for article h3 */
+article h3{
+    text-align: center;
+    color: #FFFFFF;
+}
+
+article p{
+    color: #FFFFFF;
+    text-align: justify;
+    font-size: 1.1em;
+}
+
+/* style for article ul */
+article ul{
+    color: #FFFFFF;
+    font-size: 1.1em;
+}
+
+/* style for footer element */
+footer{
+    color: #FFFFFF;
+    text-align: center;
+    border-top: limegreen solid;
+}
+
+/* style for footer anchor tag */
+footer a{
+    text-decoration: underline;
+    color: #FFFFFF;
+}
+
+
+
+/* style for about us page */
+
+/* style for ceo messge tag and aside tag */
+.ceo-message{
+    display: flex;
+}
+.ceo-message aside{
+    background-color: #FFFFFF;
+    border-radius: 0 5em 5em 5em;
+    box-shadow: 1em 1em 1em #4C4F4D;
+    padding: 1.5em;
+    margin: 1em;
+    font-size: 1.5em;
+}
+.ceo-message aside h3, h4{
+    color: black;
+    text-align: right;
+}
+
+  /* style for anchor element within the figure element */
+  figure a{
+    background-color: transparent;
+    padding: 0;
+    text-decoration: none;
+}
+
+figure a:hover{
+    opacity: 0.5;
+}
+
+/*  */
+.products article figure figcaption{
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 1.5em;
+}
+
+/* style rule for btn class  */
+.btn{
+    text-align: center;
+    padding-top: 3em;
+    padding-bottom: 2em;
+}
+.btn button{
+    text-align: center;
+    padding: 1.1em 2.5em 1.1em 2.5em;
+    border-radius: 0.5em;
+    border: none;
+    background-color: gray;
+}
+.btn button:hover{
+    background-color: lightcoral;
+    border: none;
+
+}
+
+
+/* style for tablet viewport */
+/* style for desktop viewport */
+@media only screen and (min-width:660px){
+    /* style for header */
+    header{
+        text-align: left;
+    }
+    /* style for nav */
+    nav li{
+        display: inline;
+        float: left;
+        margin-left: 1%;
+        margin-right: 1%;
+        padding-left: 0;
+        padding-right: 0;
+        width: 9%;
+        background-color: transparent;
+        white-space: nowrap;
+    }
+    nav li a:hover{
+        color: lightcoral;
+    }
+    /* style for desktop class */
+    .desktop{
+        display: inline;
+    }
+
+    main{
+        clear: left;
+        margin-top: -0.3em;
+        overflow: auto;
+        border-radius: 0;
+    }
+
+    /* about us page  */ 
+
+    .message-section{
+        margin-top: 2em;
+    }
+    .ceo-message{
+        display: flex;
+    }
+    .ceo-message img{
+        height: 300px;
+        margin-top: 20px;
+    }
+    aside{
+        background-color: #FFFFFF;
+        border-radius: 0 5em 5em 5em;
+        box-shadow: 1em 1em 1em #4C4F4D;
+        padding: 1.5em;
+        font-size: 1.5em;
+    }
+    .ceo-message aside h2, h3, h4{
+        color: black;
+        text-align: justify;
+    }
+
+    /* company overview */
+    .company-overview{
+        margin-top: 30px;
+        display: flex;
+    }
+    .company-overview h2{
+        margin: 5em;
+        font-size:1.25em;
+    }
+    .company-overview article p,li{
+        font-size: 1em;
+        color: #000000;
+    }
+
+    figure img{
+        background-color: #1D1D1C;
+        display: inline;
+        height: 20em;
+        width: 28%;
+        margin: 1%;
+        padding: 1%;
+    }
+
+    .services{
+        margin-top: 30px;
+    }
+
+    /* styles for specials */
+    .desktop-special {
+        width: 100%;
+        height: 150px;
+        background-color: gray;
+        margin-top: 40px;
+    }
+    .desktop-special h1{
+        color: #FFFFFF;
+        text-align: center;
+        padding-top: 50px;
+    }
+    /* style for special page */
+    .week-product{
+        margin-top: 30px;
+        display: flex;
+    }
+    
+    .week-product img{
+        margin-top: 10em;
+        height: 200px;
+        width: 350px;
+    }
+
+    .week-product img:hover{
+        opacity: 0.5;
+    }
+    .week-product article li, figure figcaption{
+        color: #FFFFFF;
+        font-size: 1.1em;
+    }
+    .week-product article h2{
+        font-size: 45px;
+    }
+
+    .week-product h3{
+        text-align: left;
+        font-size: 1.25em;
+    }
+
+    .weekly-sales{
+        margin-left: 20px;
+    }
+
+    .weekly-sales article{
+        float: left;
+        margin: 0.5%;
+        padding: 0.5%;
+        text-align: justify;
+        width: 31%;
+    }
+
+    .weekly-sales article img{
+        height: 300px;
+        width: 320px;
+        margin-left: 70px;
+        margin-right: auto;
+        /* padding-left: 50px; */
+        border: solid 0.13em red;
+    }
+    
+    .weekly-sales article li{
+        color: #FFFFFF;
+    }
+
+    .weekly-sales h2{
+        font-size: 45px;
+        text-align: center;
+    }
+
+    /* style rule for figure element within section element */
+    .products article img{
+        width: 400px;
+    }
+    .products article img:hover{
+        opacity: 0.5;
+    }
+    .products article figure figcaption{
+        text-align: center;
+        font-style: italic;
+    }
+    .products{
+        display: flex;
+    }
+
+   
+
+}
