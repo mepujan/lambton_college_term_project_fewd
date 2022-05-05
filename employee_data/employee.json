@@ -1,0 +1,94 @@
+{
+    "employees":[
+        {
+            "name":"Larry Johnson",
+            "title":"Manager",
+            "department":"Marketing",
+            "bio":"Hi, i am Larry Johnson, currently working as a Marketing manager at Light Rays Limited. I have done my Master in Marketing from the California University of United State. I worked as a marketing supervisior for more than 5 years and now i am here at this company."
+        },
+        {
+            "name":"Pujan Gautam",
+            "title":"Designer",
+            "department":"Production",
+            "bio":"Hi, i am Larry Johnson, currently working as a Marketing manager at Light Rays Limited. I have done my Master in Marketing from the California University of United State. I worked as a marketing supervisior for more than 5 years and now i am here at this company."
+        },
+        {
+            "name":"Mark Scott",
+            "title":"Supervisior",
+            "department":"Production",
+            "bio":"Hi, i am Larry Johnson, currently working as a Marketing manager at Light Rays Limited. I have done my Master in Marketing from the California University of United State. I worked as a marketing supervisior for more than 5 years and now i am here at this company."
+        },
+        {
+            "name":"Kelvin Warne",
+            "title":"Team Leader",
+            "department":"Production",
+            "bio":"Hi, i am Larry Johnson, currently working as a Marketing manager at Light Rays Limited. I have done my Master in Marketing from the California University of United State. I worked as a marketing supervisior for more than 5 years and now i am here at this company."
+        },
+        {
+            "name":"Angela Watson",
+            "title":"Sales Representative",
+            "department":"Marketing",
+            "bio":"Hi, i am Larry Johnson, currently working as a Marketing manager at Light Rays Limited. I have done my Master in Marketing from the California University of United State. I worked as a marketing supervisior for more than 5 years and now i am here at this company."
+        },
+        {
+            "name":"Kelvin Warne",
+            "title":"Team Leader",
+            "department":"Production",
+            "bio":"Hi, i am Larry Johnson, currently working as a Marketing manager at Light Rays Limited. I have done my Master in Marketing from the California University of United State. I worked as a marketing supervisior for more than 5 years and now i am here at this company."
+        },
+        {
+            "name":"Kelvin Warne",
+            "title":"Team Leader",
+            "department":"Production",
+            "bio":"Hi, i am Larry Johnson, currently working as a Marketing manager at Light Rays Limited. I have done my Master in Marketing from the California University of United State. I worked as a marketing supervisior for more than 5 years and now i am here at this company."
+        },
+        {
+            "name":"Kelvin Warne",
+            "title":"Team Leader",
+            "department":"Production",
+            "bio":"Hi, i am Larry Johnson, currently working as a Marketing manager at Light Rays Limited. I have done my Master in Marketing from the California University of United State. I worked as a marketing supervisior for more than 5 years and now i am here at this company."
+        },
+        {
+            "name":"Kelvin Warne",
+            "title":"Team Leader",
+            "department":"Production",
+            "bio":"Hi, i am Larry Johnson, currently working as a Marketing manager at Light Rays Limited. I have done my Master in Marketing from the California University of United State. I worked as a marketing supervisior for more than 5 years and now i am here at this company."
+        },
+        {
+            "name":"Kelvin Warne",
+            "title":"Team Leader",
+            "department":"Production",
+            "bio":"Hi, i am Larry Johnson, currently working as a Marketing manager at Light Rays Limited. I have done my Master in Marketing from the California University of United State. I worked as a marketing supervisior for more than 5 years and now i am here at this company."
+        },
+        {
+            "name":"Kelvin Warne",
+            "title":"Team Leader",
+            "department":"Production",
+            "bio":"Hi, i am Larry Johnson, currently working as a Marketing manager at Light Rays Limited. I have done my Master in Marketing from the California University of United State. I worked as a marketing supervisior for more than 5 years and now i am here at this company."
+        },
+        {
+            "name":"Kelvin Warne",
+            "title":"Team Leader",
+            "department":"Production",
+            "bio":"Hi, i am Larry Johnson, currently working as a Marketing manager at Light Rays Limited. I have done my Master in Marketing from the California University of United State. I worked as a marketing supervisior for more than 5 years and now i am here at this company."
+        },
+        {
+            "name":"Kelvin Warne",
+            "title":"Team Leader",
+            "department":"Production",
+            "bio":"Hi, i am Larry Johnson, currently working as a Marketing manager at Light Rays Limited. I have done my Master in Marketing from the California University of United State. I worked as a marketing supervisior for more than 5 years and now i am here at this company."
+        },
+        {
+            "name":"Kelvin Warne",
+            "title":"Team Leader",
+            "department":"Production",
+            "bio":"Hi, i am Larry Johnson, currently working as a Marketing manager at Light Rays Limited. I have done my Master in Marketing from the California University of United State. I worked as a marketing supervisior for more than 5 years and now i am here at this company."
+        },
+        {
+            "name":"Kelvin Warne",
+            "title":"Team Leader",
+            "department":"Production",
+            "bio":"Hi, i am Larry Johnson, currently working as a Marketing manager at Light Rays Limited. I have done my Master in Marketing from the California University of United State. I worked as a marketing supervisior for more than 5 years and now i am here at this company."
+        }
+    ]
+}

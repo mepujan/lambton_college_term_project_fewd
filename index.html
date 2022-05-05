@@ -6,28 +6,55 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/style.css">
+        <script src="http://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+        <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+        <script src="js/jQuery.chandlier.js"></script>
+        <script src="js/jQuery.chandelier.menuplugin.js"></script>
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <title>Light Rays Ltd</title>
     </head>
 
     <body>
         <div id="container">
             <header>
-                <a href="index.html"><img src="images/logo.png" alt="Light Rays Limited logo image" height="100px" width="600px"></a>
+                <a href="index.html"><img src="images/logo.png" alt="Light Rays Limited logo image" height="100px"
+                        width="400px"></a>
+                <div class="search-container">
+                    <form class="search-form"> 
+                        <input type="text" placeholder="Search.." name="search" id="search">
+                        <button type="submit"><i class="fa fa-search"></i></button>
+                    </form>
+                </div>
             </header>
-            <nav>
+            <nav class="chandelier-menu">
                 <li><a href="index.html">Home</a></li> &nbsp;&nbsp;
                 <li><a href="about.html">About Us</a></li>&nbsp;&nbsp;
                 <li><a href="team.html">Our Team</a></li>&nbsp;&nbsp;
                 <li><a href="specials.html">Specials</a></li>&nbsp;&nbsp;
-                <li><a href="training.html">Training</a></li>&nbsp;&nbsp;
-                <li><a href="media.html">media</a></li>&nbsp;&nbsp;
                 <li><a href="contact.html">Contact Us</a></li>&nbsp;&nbsp;
-                <li><a href="">Reports</a></li>&nbsp;&nbsp;
+                <!-- <li><a href="">Reports</a></li>&nbsp;&nbsp; -->
+                <div class="dropdown">
+                    <button class="dropbtn">Reports
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="web1.html">WEB1</a>
+                    </div>
+                </div>
             </nav>
             <!-- Homepage Banner -->
-            <div class="desktop">
-                <img src="images/banner.webp" alt="Chandeliers homepage banner image">
-            </div>
+            <center>
+                <div class="slider">
+                    <div><img src="images/carosel1.jpg" alt="Chandeliers homepage banner image" title="Chandelier 1">
+                    </div>
+                    <div><img src="images/carousel2.jpg" title="Chandlier 2"></div>
+                    <div><img src="images/carousel3.jpg" title="Chandlier 2"></div>
+                    <div><img src="images/carousel4.jpg" title="Chandlier 2"></div>
+                    <div><img src="images/carousel5.jpg" title="Chandlier 2"></div>
+                </div>
+            </center>
             <main>
                 <section class="services">
                     <h2>Our Services</h2>
@@ -43,48 +70,54 @@
                 <section>
                     <h2>Our Products</h2>
                     <div class="products">
-                    <article>
-                        <figure>
-                            <img src="images/chandlier1.jpg" alt="Modernist-style Murano quadriedri prism chandelier">
-                            <figcaption>Modernist-style prism chandelier</figcaption>
-                        </figure>
-                    </article>
-                    <article>
-                        <figure>
-                            <img src="images/chandelier_2.jpg" alt=" Mid Century Cascading Chandelier with Hand Cut Amber Graniglia Glass">
-                            <figcaption> Mid Century Cascading Chandelier with Hand Cut Amber Graniglia Glass</figcaption>
-                        </figure>
-                    </article>
-                    <article>
-                        <figure>
-                            <img src="images/chandelier_3.jpg" alt="PRISM FACETED GLASS LAYERED CHANDELIER">
-                            <figcaption>Prism Faceted Glass Layered Chandelier</figcaption>
-                        </figure>
-                    </article>
-                </div>
-                <div class="products">
-                    <article>
-                        <figure>
-                            <img src="images/chandelier_5.jpg" alt="SHELL AND CRYSTAL DRUM SHADE CHANDELIER">
-                            <figcaption>Shell and Crystal Drum Shade Chandelier</figcaption>
-                        </figure>
-                    </article>
-                    <article>
-                        <figure>
-                            <img src="images/chandelier_6.jpg" alt="PRISM FACETED GLASS LAYERED CHANDELIER">
-                            <figcaption>Prism Faceted Glass Layered Chandelier</figcaption>
-                        </figure>
-                    </article>
-                    <article>
-                        <figure>
-                            <img src="images/chandelier_8.jpg" alt="SOPHISTICATED SOPHIE CHANDELIER">
-                            <figcaption>Sophisticated Sophie Chandelier</figcaption>
-                        </figure>
-                    </article>
-                </div>
-                <div class="btn">
-                    <button>View More Products</button>
-                </div>
+                        <article>
+                            <figure>
+                                <img src="images/chandlier1.jpg" class="images"
+                                    alt="Modernist-style Murano quadriedri prism chandelier">
+                                <figcaption>Modernist-style prism chandelier</figcaption>
+                            </figure>
+                        </article>
+                        <article>
+                            <figure>
+                                <img src="images/chandelier_2.jpg" class="images"
+                                    alt=" Mid Century Cascading Chandelier with Hand Cut Amber Graniglia Glass">
+                                <figcaption> Mid Century Cascading Chandelier with Hand Cut Amber Graniglia Glass
+                                </figcaption>
+                            </figure>
+                        </article>
+                        <article>
+                            <figure>
+                                <img src="images/chandelier_3.jpg" class="images"
+                                    alt="PRISM FACETED GLASS LAYERED CHANDELIER">
+                                <figcaption>Prism Faceted Glass Layered Chandelier</figcaption>
+                            </figure>
+                        </article>
+                    </div>
+                    <div class="products">
+                        <article>
+                            <figure>
+                                <img src="images/chandelier_5.jpg" class="images"
+                                    alt="SHELL AND CRYSTAL DRUM SHADE CHANDELIER">
+                                <figcaption>Shell and Crystal Drum Shade Chandelier</figcaption>
+                            </figure>
+                        </article>
+                        <article>
+                            <figure>
+                                <img src="images/chandelier_6.jpg" class="images"
+                                    alt="PRISM FACETED GLASS LAYERED CHANDELIER">
+                                <figcaption>Prism Faceted Glass Layered Chandelier</figcaption>
+                            </figure>
+                        </article>
+                        <article>
+                            <figure>
+                                <img src="images/chandelier_8.jpg" class="images" alt="SOPHISTICATED SOPHIE CHANDELIER">
+                                <figcaption>Sophisticated Sophie Chandelier</figcaption>
+                            </figure>
+                        </article>
+                    </div>
+                    <div class="btn">
+                        <button>View More Products</button>
+                    </div>
                 </section>
             </main>
             <footer>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <script	src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script	src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+    <script src="http://12.42.204.30:7005/jTable/jquery.jtable.js"></script>
+    <script src="http://12.42.204.30:7005/jTable/helpers.js"></script>
+    <link href="http://12.42.204.30:7005/jTable/themes/lightcolor/red/jtable.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Light Rays Ltd</title>
+    <script>
+        $(document).ready(function() {
+		$('#container1').jtable({
+			title : 'Product Listing', 
+			paging : true,                 
+			pageSize : 11,                  
+			sorting : true,                  
+			defaultSorting : 'name',  
+			actions : {
+				listAction : 'genJson2.aspx?jtView=productV1' 
+			},
+			fields : {            
+				name : {
+					title : 'Product Name',
+					width : '10%',
+					list : true
+				},
+				model_number : {
+					title : 'Model Number',
+					width : '20%',
+					list : true
+				},
+				brand_name : {
+					title : 'Brand',
+					width : '10%',
+					list : true
+				},
+				manufacturer_name : {
+					title : 'Manufacturer',
+					width : '10%',
+					list : true
+				},
+				color : {
+					title : 'Color',
+					width : '10%',
+					list : true,
+				},
+				bulb_type : {
+					title : 'Bulb Type',
+					width : '5%',
+					list : true,
+				},
+				price : {
+					title : 'Cost price',
+					width : '10%',
+					list : true,
+					display : function(data) {
+						return formatCurrency(data.record.price)
+					},
+				}
+			}
+		});
+		$('#container1').jtable('load');
+	});
+</script>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <a href="index.html"><img src="images/logo.png" alt="Light Rays Limited logo image" height="100px"
+                    width="600px"></a>
+        </header>
+        <nav>
+            <li><a href="index.html">Home</a></li> &nbsp;&nbsp;
+            <li><a href="about.html">About Us</a></li>&nbsp;&nbsp;
+            <li><a href="team.html">Our Team</a></li>&nbsp;&nbsp;
+            <li><a href="specials.html">Specials</a></li>&nbsp;&nbsp;
+            <li><a href="contact.html">Contact Us</a></li>&nbsp;&nbsp;
+            <!-- <li><a href="">Reports</a></li>&nbsp;&nbsp; -->
+            <div class="dropdown">
+                <button class="dropbtn">Reports
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="web1.html">WEB1</a>
+                    <a href="#">WEB2</a>
+                    <a href="#">WEB3</a>
+                    <a href="#">WEB4</a>
+                </div>
+            </div>
+        </nav>
+    <div id="container1" style="width: 90%; margin-top: 40px;"></div>
+    </div>
+</body>
+</html>

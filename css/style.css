@@ -23,7 +23,7 @@ header{
 }
 
 /* style for class desktop */
-.desktop{
+.slider{
     display: none;
 }
 
@@ -42,6 +42,7 @@ nav{
     font-weight: bold;
     text-align: center;
     margin-top: 1.5em;
+    margin-bottom: 1.5em;
     position: -webkit-sticky;
 }
 
@@ -164,6 +165,10 @@ figure a:hover{
 
 }
 
+.hide{
+    display: none;
+}
+
 
 /* style for tablet viewport */
 /* style for desktop viewport */
@@ -176,8 +181,8 @@ figure a:hover{
     nav li{
         display: inline;
         float: left;
-        margin-left: 1%;
-        margin-right: 1%;
+        margin-left: 3%;
+        margin-right: 3%;
         padding-left: 0;
         padding-right: 0;
         width: 9%;
@@ -188,8 +193,10 @@ figure a:hover{
         color: lightcoral;
     }
     /* style for desktop class */
-    .desktop{
+    .slider{
         display: inline;
+        justify-content: center;
+
     }
 
     main{
@@ -335,6 +342,171 @@ figure a:hover{
         display: flex;
     }
 
-   
+     /* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 20px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover {
+  background-color: lightcoral;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+} 
+
+.contact-form{
+    text-align: center;
+}
+.contact-form{
+    background-color: greenyellow;
+}
+
+.contact-form label{
+    float: left;
+}
+.form-container{
+    border-radius: 5px;
+    padding: 20px;
+    width: 50%;
+}
+label.error {
+	float: none;
+    display: block;
+	color: red;
+	font-size: 87.5%;
+    clear: both;
+}
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 50%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+
+  table,thead,tbody,th,td{
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+  #employee-table{
+      background-color: #FFFFFF;
+      width: 100%;
+      text-align: left;
+      border-collapse: collapse;
+      border-spacing: 0;
+  }
+  th,td{
+    border: 1px solid black;
+    padding: 0.5em;
+}
+th{
+    background-color: yellow;
+}
+
+.hide-show a{
+    text-decoration: none;
+    color: red;
+}
+
+.hide-show{
+border-radius: 0.5em;
+  border: none;
+  color: red;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: greenyellow;
+  text-align: center;
+}
+.search-container {
+    float: right;
+  }
+
+  input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+    width: 260px;
+  }
+ .search-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
 
 }

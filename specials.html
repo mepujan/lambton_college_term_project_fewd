@@ -6,21 +6,28 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/style.css">
+        <script src="http://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="js/jQuery.chandlier.js"></script>
+        <script src="js/jQuery.chandelier.menuplugin.js"></script>
+        <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <title>Light Rays Ltd</title>
     </head>
 
     <body>
         <div id="container">
             <header>
-                <img src="images/logo.png" alt="Light Rays Limited logo image" height="100px" width="600px">
+                <img src="images/logo.png" alt="Light Rays Limited logo image" height="100px" width="400px">
+                <div class="search-container">
+                    <input type="text" placeholder="Search.." name="search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </div>
             </header>
-            <nav>
+            <nav class="chandelier-menu">
                 <li><a href="index.html">Home</a></li> &nbsp;&nbsp;
                 <li><a href="about.html">About Us</a></li>&nbsp;&nbsp;
                 <li><a href="team.html">Our Team</a></li>&nbsp;&nbsp;
                 <li><a href="specials.html">Specials</a></li>&nbsp;&nbsp;
-                <li><a href="training.html">Training</a></li>&nbsp;&nbsp;
-                <li><a href="media.html">media</a></li>&nbsp;&nbsp;
                 <li><a href="contact.html">Contact Us</a></li>&nbsp;&nbsp;
                 <li><a href="">Reports</a></li>&nbsp;&nbsp;
             </nav>
@@ -28,11 +35,13 @@
             <div class="desktop-special">
                 <h1>Our Specials</h1>
             </div>
-            <main>
+            <main id ='specials'>
                 <section class="week-product">
                     <figure>
                         <img src="images/chandelier_2.jpg" alt="week products image">
-                        <figcaption><bold><q>ARTROEE L47</q></bold> Metal Black Circular Chandelier</figcaption>
+                        <figcaption>
+                            <bold><q>ARTROEE L47</q></bold> Metal Black Circular Chandelier
+                        </figcaption>
                     </figure>
                     <article>
                         <h2>Product Of The Week</h2>
@@ -43,6 +52,7 @@
                                 iron rod chandelier makes a strong statement to your farmhouse style living room,
                                 kitchen island, breakfast bar, foyer, hallway, pool table, etc. Adding farmhouse
                                 aesthetics and texture, it's no doubt a gorgeous centerpiece in any of your rooms.
+
                             </li>
                             <li>
                                 Comes with 100pcs nice illumination E26 LED 4W Edison bulbs, lights up your house
@@ -56,6 +66,7 @@
                                 3-years warranty on parts: for any missing/broken parts, please feel free to contact
                                 seller to get free replacements. Buy with confidence!
                             </li>
+
                         </ul>
 
                         <h3>Features</h3>
@@ -67,9 +78,9 @@
                         </ul>
                     </article>
                 </section>
-                <section class="weekly-sales">
+                <section class="weekly-sales" id="weekly-sales">
                     <h2>Weekly Sales Items</h2>
-                    <article>
+                    <article class="weekly-sales">
                         <img src="images/chandlier1.jpg" alt="weekly sales product first">
                         <p>
                             <ul>
@@ -79,20 +90,26 @@
                                     kitchen island, breakfast bar, foyer, hallway, pool table, etc. Adding farmhouse
                                     aesthetics and texture, it's no doubt a gorgeous centerpiece in any of your rooms.
                                 </li>
-                                <li>
-                                    Comes with 100pcs nice illumination E26 LED 4W Edison bulbs, lights up your house
-                                    immediately.
-                                </li>
-                                <li>
-                                    Assembly required.Its simple design makes it very easy to install. All mounting
-                                    hardware and Installation instruction Included.
-                                </li>
-                                <li>
-                                    3-years warranty on parts: for any missing/broken parts, please feel free to contact
-                                    seller to get free replacements. Buy with confidence!
-                                </li>
+                                <div class="hide">
+                                    <li>
+                                        Comes with 100pcs nice illumination E26 LED 4W Edison bulbs, lights up your
+                                        house
+                                        immediately.
+                                    </li>
+                                    <li>
+                                        Assembly required.Its simple design makes it very easy to install. All mounting
+                                        hardware and Installation instruction Included.
+                                    </li>
+                                    <li>
+                                        3-years warranty on parts: for any missing/broken parts, please feel free to
+                                        contact
+                                        seller to get free replacements. Buy with confidence!
+                                    </li>
+                                </div>
+                                <button class="hide-show"><a href="#">Show More</a></button>
                             </ul>
                         </p>
+                        
                     </article>
                     <article>
                         <img src="images/chandelier_2.jpg" alt="weekly sales product second">
@@ -104,18 +121,23 @@
                                     kitchen island, breakfast bar, foyer, hallway, pool table, etc. Adding farmhouse
                                     aesthetics and texture, it's no doubt a gorgeous centerpiece in any of your rooms.
                                 </li>
-                                <li>
-                                    Comes with 100pcs nice illumination E26 LED 4W Edison bulbs, lights up your house
-                                    immediately.
-                                </li>
-                                <li>
-                                    Assembly required.Its simple design makes it very easy to install. All mounting
-                                    hardware and Installation instruction Included.
-                                </li>
-                                <li>
-                                    3-years warranty on parts: for any missing/broken parts, please feel free to contact
-                                    seller to get free replacements. Buy with confidence!
-                                </li>
+                                <div class="hide">
+                                    <li>
+                                        Comes with 100pcs nice illumination E26 LED 4W Edison bulbs, lights up your
+                                        house
+                                        immediately.
+                                    </li>
+                                    <li>
+                                        Assembly required.Its simple design makes it very easy to install. All mounting
+                                        hardware and Installation instruction Included.
+                                    </li>
+                                    <li>
+                                        3-years warranty on parts: for any missing/broken parts, please feel free to
+                                        contact
+                                        seller to get free replacements. Buy with confidence!
+                                    </li>
+                                </div>
+                                <button class="hide-show"><a href="#">Show More</a></button>
                             </ul>
                         </p>
                     </article>
@@ -129,18 +151,23 @@
                                     kitchen island, breakfast bar, foyer, hallway, pool table, etc. Adding farmhouse
                                     aesthetics and texture, it's no doubt a gorgeous centerpiece in any of your rooms.
                                 </li>
-                                <li>
-                                    Comes with 100pcs nice illumination E26 LED 4W Edison bulbs, lights up your house
-                                    immediately.
-                                </li>
-                                <li>
-                                    Assembly required.Its simple design makes it very easy to install. All mounting
-                                    hardware and Installation instruction Included.
-                                </li>
-                                <li>
-                                    3-years warranty on parts: for any missing/broken parts, please feel free to contact
-                                    seller to get free replacements. Buy with confidence!
-                                </li>
+                                <div class="hide">
+                                    <li>
+                                        Comes with 100pcs nice illumination E26 LED 4W Edison bulbs, lights up your
+                                        house
+                                        immediately.
+                                    </li>
+                                    <li>
+                                        Assembly required.Its simple design makes it very easy to install. All mounting
+                                        hardware and Installation instruction Included.
+                                    </li>
+                                    <li>
+                                        3-years warranty on parts: for any missing/broken parts, please feel free to
+                                        contact
+                                        seller to get free replacements. Buy with confidence!
+                                    </li>
+                                </div>
+                                <button class="hide-show"><a href="#">Show More</a></button>
                             </ul>
                         </p>
                     </article>
